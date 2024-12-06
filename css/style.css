@@ -1,38 +1,85 @@
+body {
+  padding: 0 !important;
+}
+
 .promo {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: black;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .header {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .logo {
-    text-transform: uppercase;
-    font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .search {
-    border: 2px solid black;
-    border-radius: 0;
-    width: 80%;
-    float: left;
+  border: 2px solid black;
+  border-radius: 0;
+  width: 80%;
+  float: left;
 }
 
 .searchButton {
-    background: black;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    color: white;
-    width: 20%;
+  background: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: white;
+  width: 20%;
 }
 
-ul li .iconMenu {
-    display: inline-block;
+.iconMenu {
+  list-style: none;
+  display: flex;
+}
+
+.icon-button {
+  font-size: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Any anchor tag inside the iconMenu div */
+.iconMenu a {
+  color: grey;
+}
+
+/* Hover means to move your mouse over something */
+.iconMenu a:hover {
+  color: orangered;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: black;
+  border-bottom: 2px solid black;
+  background-color: white;
+  font-size: 12px;
+}
+
+.nav-link {
+  color: black;
+  background-color: white;
+  font-size: 12px;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0;
+}
+.topbar-icon {
+  font-size: 30px;
+}
+.icon-wrapper {
+  padding: 0;
+  text-align: center;
+  float: inline-start;
 }
