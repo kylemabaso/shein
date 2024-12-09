@@ -83,3 +83,9 @@ body {
   text-align: center;
   float: inline-start;
 }
+.purple {
+  background: purple;
+}
+.green {
+  background: greenyellow;
+}
